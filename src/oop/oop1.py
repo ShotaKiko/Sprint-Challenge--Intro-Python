@@ -19,19 +19,35 @@
 # Put a comment noting which class is the base class
 
 
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~2D Movement~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 class Vehicle:
     #Base Class
     ##def __init__(self, base_variable_name, etc ) so on for each variable
     pass
 
 class GroundVehicle(Vehicle):
-    #would have some variables that will be passed to car and motorcycle according to heirarchy provided
+    #Subtype class
     pass
 
 class Car(GroundVehicle):
+    #subtype from Ground vehicle subclass
     pass
 
 class Motorcycle(GroundVehicle):
+    #subtype from Ground vehicle subclass
     pass
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~3D potentially 4D movement (if the starship can approach a black hole and experience that time dilation effect or engage in faster than light travel)
+class FlightVehicle(Vehicle):
+    #Subtype class
+    pass
+
+class Starship(FlightVehicle):
+    #subtype from flight vehicle subclass
+    pass
+
+class Airplane(FlightVehicle):
+    #subtype from flight vehicle subclass
+    pass
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
